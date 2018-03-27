@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
 <eclipse-userlibraries version="2">
     <library name="LWJGL3" systemlibrary="false">
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/joml-1.9.8.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/joml-1.9.8-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-assimp.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-assimp-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-assimp-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-assimp-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-assimp-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-bgfx.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-bgfx-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-bgfx-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-bgfx-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-bgfx-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-egl.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-egl-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-glfw.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-glfw-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-glfw-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-glfw-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-glfw-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jawt.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jawt-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jemalloc.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jemalloc-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jemalloc-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jemalloc-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-jemalloc-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lmdb.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lmdb-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lmdb-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lmdb-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lmdb-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lz4.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lz4-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lz4-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lz4-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-lz4-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nanovg.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nanovg-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nanovg-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nanovg-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nanovg-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nfd.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nfd-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nfd-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nfd-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nfd-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nuklear.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nuklear-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nuklear-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nuklear-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-nuklear-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-odbc.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-odbc-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openal.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openal-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openal-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openal-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openal-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opencl.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opencl-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengl.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengl-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengles.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengles-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengles-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengles-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengles-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengl-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengl-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-opengl-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openvr.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openvr-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openvr-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openvr-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-openvr-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-ovr.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-ovr-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-ovr-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-ovr-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-ovr-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-par.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-par-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-par-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-par-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-par-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-remotery.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-remotery-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-remotery-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-remotery-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-remotery-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-rpmalloc.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-rpmalloc-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-rpmalloc-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-rpmalloc-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-rpmalloc-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-sse.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-sse-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-sse-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-sse-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-sse-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-stb.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-stb-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-stb-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-stb-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-stb-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyexr.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyexr-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyexr-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyexr-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyexr-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyfd.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyfd-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyfd-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyfd-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tinyfd-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tootle.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tootle-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tootle-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tootle-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-tootle-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-vulkan.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-vulkan-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-xxhash.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-xxhash-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-xxhash-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-xxhash-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-xxhash-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-yoga.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-yoga-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-yoga-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-yoga-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-yoga-natives-windows.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-zstd.jar" source="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-zstd-sources.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-zstd-natives-linux.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-zstd-natives-macos.jar"/>
-        <archive path="C:/Users/Kid's Yoga/Desktop/Workspace/LWJGL3.1.6/lwjgl-zstd-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/joml-1.9.8.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/joml-1.9.8-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-assimp.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-assimp-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-assimp-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-assimp-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-assimp-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-bgfx.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-bgfx-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-bgfx-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-bgfx-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-bgfx-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-egl.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-egl-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-glfw.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-glfw-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-glfw-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-glfw-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-glfw-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jawt.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jawt-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jemalloc.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jemalloc-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jemalloc-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jemalloc-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-jemalloc-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lmdb.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lmdb-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lmdb-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lmdb-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lmdb-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lz4.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lz4-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lz4-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lz4-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-lz4-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nanovg.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nanovg-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nanovg-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nanovg-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nanovg-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nfd.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nfd-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nfd-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nfd-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nfd-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nuklear.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nuklear-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nuklear-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nuklear-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-nuklear-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-odbc.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-odbc-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openal.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openal-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openal-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openal-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openal-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opencl.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opencl-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengl.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengl-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengles.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengles-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengles-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengles-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengles-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengl-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengl-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-opengl-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openvr.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openvr-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openvr-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openvr-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-openvr-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-ovr.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-ovr-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-ovr-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-ovr-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-ovr-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-par.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-par-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-par-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-par-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-par-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-remotery.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-remotery-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-remotery-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-remotery-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-remotery-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-rpmalloc.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-rpmalloc-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-rpmalloc-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-rpmalloc-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-rpmalloc-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-sse.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-sse-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-sse-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-sse-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-sse-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-stb.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-stb-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-stb-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-stb-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-stb-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyexr.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyexr-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyexr-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyexr-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyexr-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyfd.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyfd-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyfd-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyfd-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tinyfd-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tootle.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tootle-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tootle-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tootle-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-tootle-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-vulkan.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-vulkan-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-xxhash.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-xxhash-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-xxhash-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-xxhash-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-xxhash-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-yoga.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-yoga-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-yoga-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-yoga-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-yoga-natives-windows.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-zstd.jar" source="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-zstd-sources.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-zstd-natives-linux.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-zstd-natives-macos.jar"/>
+        <archive path="C:%HomePath%/git/LWJGLProject/LWJGL3.1.6/lwjgl-zstd-natives-windows.jar"/>
     </library>
 </eclipse-userlibraries>
