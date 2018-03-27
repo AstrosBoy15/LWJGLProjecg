@@ -1,4 +1,4 @@
-package renderEngine;
+package render;
 
 import org.joml.Matrix4f;
 import org.lwjgl.opengl.*;

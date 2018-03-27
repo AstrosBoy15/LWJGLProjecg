@@ -1,4 +1,4 @@
-package renderEngine;
+package render;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -23,7 +23,28 @@ public class Loader {
 	private List<Integer> vbos = new ArrayList<Integer>();
 	private List<Integer> textures = new ArrayList<Integer>();
 
-	public RawModel loadToVAO(float[] positions, float[] textureCoords, int[] indices) {
+	public RawModel loadToVAO() {
+
+		float[] positions = {
+		    -0.5f, 0.5f, 0f,
+		    -0.5f, -0.5f, 0f,
+		    0.5f, -0.5f, 0f,
+		    0.5f, 0.5f, 0f,
+		  };
+
+		int[] indices = {
+				0,1,3,
+				3,1,2
+		};
+
+		float[] textureCoords = {
+				0,0,
+				0,1,
+				1,1,
+				1,0
+		};
+
+		
 		int vaoID = createVAO();
 		bindIndicesBuffer(indices);
 		storeDataInAttributeList(0, 3, positions);

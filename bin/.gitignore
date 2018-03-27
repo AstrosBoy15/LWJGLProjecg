@@ -1,6 +1,5 @@
-/engineTester/
-/renderEngine/
-/textures/
-/shaders/
-/utils/
 /entities/
+/main/
+/world/
+/render/
+/utils/

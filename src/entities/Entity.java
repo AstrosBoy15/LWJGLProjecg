@@ -2,21 +2,30 @@ package entities;
 
 import org.joml.Vector3f;
 
+import models.RawModel;
 import models.TexturedModel;
+import render.Loader;
+import textures.ModelTexture;
 
-public class Entity {
+public abstract class Entity {
 
-	private TexturedModel model;
+	private RawModel model;
 	private Vector3f position;
 	private float rotX, rotY, rotZ;
 	private float scale;
-	public Entity(TexturedModel model, Vector3f position, float rotX, float rotY, float rotZ, float scale) {
+	private ModelTexture texture;
+	private TexturedModel texturedModel;
+	
+	public Entity(RawModel model, String asset, Vector3f position, float rotX, float rotY, float rotZ, float scale, Loader loader) {
 		this.model = model;
 		this.position = position;
 		this.rotX = rotX;
 		this.rotY = rotY;
 		this.rotZ = rotZ;
 		this.scale = scale;
+		texture = new ModelTexture(loader.loadTexture(asset));
+		this.texturedModel = new TexturedModel(model, texture);
+		
 	}
 	
 	public void increasePosition(float dx, float dy, float dz) {
@@ -32,11 +41,11 @@ public class Entity {
 	}
 	
 	public TexturedModel getModel() {
-		return model;
+		return texturedModel;
 	}
 	
 	public void setModel(TexturedModel model) {
-		this.model = model;
+		this.texturedModel = model;
 	}
 	
 	public Vector3f getPosition() {

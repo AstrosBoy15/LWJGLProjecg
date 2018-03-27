@@ -1,4 +1,4 @@
-package renderEngine;
+package render;
 
 import org.lwjgl.glfw.*;
 import org.lwjgl.opengl.*;
@@ -84,6 +84,8 @@ public class DisplayManager {
 		// Poll for window events. The key callback above will only be
 		// invoked during this call.
 		glfwPollEvents();
+		
+		
 		
 	}
 	
