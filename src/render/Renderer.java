@@ -8,6 +8,19 @@ import shaders.StaticShader;
 import utils.Maths;
 
 public class Renderer {
+	
+	private static final float FOV = 70;
+	private static final float NEAR_PLANE = .1f;
+	private static final float FAR_PLANE = 1000;
+	
+	private Matrix4f projectionMatrix;
+	
+	public Renderer(StaticShader shader) {
+		createProjectionMatrix();
+		shader.start();
+		shader.loadProjectionMatrix(projectionMatrix);
+		shader.stop();
+	}
 
 	public void prepare() {
 		GL11.glClear(GL11.GL_COLOR_BUFFER_BIT);
@@ -27,6 +40,21 @@ public class Renderer {
 		GL20.glDisableVertexAttribArray(0);
 		GL20.glDisableVertexAttribArray(1);
 		GL30.glBindVertexArray(0);
+	}
+	
+	private void createProjectionMatrix() {
+		float aspectRatio = DisplayManager.getWidth() / DisplayManager.getHeight();
+		float y_scale = (float) ((1f / Math.tan(Math.toRadians(FOV / 2f))) * aspectRatio);
+		float x_scale = y_scale / aspectRatio;
+		float frustum_length = FAR_PLANE - NEAR_PLANE;
+	 
+		projectionMatrix = new Matrix4f();
+		projectionMatrix._m00(x_scale);
+		projectionMatrix._m11(y_scale);
+		projectionMatrix._m22(-((FAR_PLANE + NEAR_PLANE) / frustum_length));
+		projectionMatrix._m23(-1);
+		projectionMatrix._m32(-((2 * NEAR_PLANE * FAR_PLANE) / frustum_length));
+		projectionMatrix._m33(0);
 	}
 	
 }

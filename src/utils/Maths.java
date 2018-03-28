@@ -3,6 +3,8 @@ package utils;
 import org.joml.Matrix4f;
 import org.joml.Vector3f;
 
+import entities.Camera;
+
 public class Maths {
 
 	public static Matrix4f createTransformationMatrix(Vector3f translation, float rx, float ry, float rz, float scale) {
@@ -16,6 +18,17 @@ public class Maths {
 		
 		return matrix;
 		
+	}
+	
+	public static Matrix4f createViewMatrix(Camera camera) {
+		Matrix4f viewMatrix = new Matrix4f();
+		viewMatrix.identity();
+		viewMatrix.rotate((float) Math.toRadians(camera.getPitch()), new Vector3f(1, 0, 0), viewMatrix);
+		viewMatrix.rotate((float) Math.toRadians(camera.getYaw()), new Vector3f(0, 1, 0), viewMatrix);
+		Vector3f cameraPos = camera.getPosition();
+		Vector3f negativeCameraPos = new Vector3f(-cameraPos.x,-cameraPos.y,-cameraPos.z);
+		viewMatrix.translate(negativeCameraPos, viewMatrix);
+		return viewMatrix;
 	}
 	
 }

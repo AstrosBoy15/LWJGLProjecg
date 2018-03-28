@@ -3,6 +3,7 @@ package entities;
 import org.joml.Vector3f;
 
 import models.RawModel;
+import render.DisplayManager;
 import render.Loader;
 
 public class Player extends Entity{
