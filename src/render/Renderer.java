@@ -1,11 +1,16 @@
 package render;
 
 import org.joml.Matrix4f;
-import org.lwjgl.opengl.*;
+import org.lwjgl.opengl.GL11;
+import org.lwjgl.opengl.GL13;
+import org.lwjgl.opengl.GL20;
+import org.lwjgl.opengl.GL30;
 
+import entities.Camera;
 import entities.Entity;
 import shaders.StaticShader;
 import utils.Maths;
+import world.World;
 
 public class Renderer {
 	
@@ -27,13 +32,21 @@ public class Renderer {
 		GL11.glClearColor(1, 0, 0, 1);
 	}
 	
-	public void render(Entity entity, StaticShader shader) {
+	public void render(Entity entity, StaticShader shader, Camera camera, World world) {
 		GL30.glBindVertexArray(entity.getModel().getRawModel().getVaoID());
 		GL20.glEnableVertexAttribArray(0);
 		GL20.glEnableVertexAttribArray(1);
-		Matrix4f transformationMatrix = Maths.createTransformationMatrix(entity.getPosition(), entity.getRotX(), entity.getRotY(), 
-				entity.getRotZ(), entity.getScale());
-		shader.loadTransformationMatrix(transformationMatrix);
+		if(entity.isMap()) {
+			Matrix4f target = camera.getProjection();
+			target.mul(world.getWorldMatrix());
+			target.translate(entity.getPosition());
+			target.scale(entity.getScale()*4);
+			shader.loadTransformationMatrix(target);
+		} else {
+			Matrix4f transformationMatrix = Maths.createTransformationMatrix(entity.getPosition(), entity.getRotX(), entity.getRotY(), 
+					entity.getRotZ(), entity.getScale()/24);
+			shader.loadTransformationMatrix(transformationMatrix);
+		}
 		GL13.glActiveTexture(GL13.GL_TEXTURE0);
 		GL11.glBindTexture(GL11.GL_TEXTURE_2D, entity.getModel().getTexture().getID());
 		GL11.glDrawElements(GL11.GL_TRIANGLES, entity.getModel().getRawModel().getVertexCount(), GL11.GL_UNSIGNED_INT, 0);
@@ -55,6 +68,10 @@ public class Renderer {
 		projectionMatrix._m23(-1);
 		projectionMatrix._m32(-((2 * NEAR_PLANE * FAR_PLANE) / frustum_length));
 		projectionMatrix._m33(0);
+	}
+	
+	public Matrix4f getProjectionMatrix() {
+		return projectionMatrix;
 	}
 	
 }

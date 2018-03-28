@@ -23,15 +23,15 @@ public class MainGameLoop {
 		StaticShader shader = new StaticShader();
 		Renderer renderer = new Renderer(shader);
 		World world = new World(loader);
-		Camera camera = new Camera();
+		Camera camera = new Camera(DisplayManager.getWidth(), DisplayManager.getHeight());
 		
 		while(!glfwWindowShouldClose(DisplayManager.getWindow())) {
-			//game logic
+			world.update(camera);
 			camera.move();
 			renderer.prepare();
 			shader.start();
-			shader.loadViewnMatrix(camera);
-			world.render(renderer, shader);
+			shader.loadViewMatrix(camera);
+			world.render(renderer, shader, camera);
 			shader.stop();
 			DisplayManager.updateDisplay();
 			

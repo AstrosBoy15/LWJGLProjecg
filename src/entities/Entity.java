@@ -15,18 +15,22 @@ public abstract class Entity {
 	private float scale;
 	private ModelTexture texture;
 	private TexturedModel texturedModel;
+	private boolean map = false;
 	
-	public Entity(RawModel model, String asset, Vector3f position, float rotX, float rotY, float rotZ, float scale, Loader loader) {
+	public Entity(RawModel model, String asset, Vector3f position, float rotX, float rotY, float rotZ, float scale, boolean isMap, Loader loader) {
 		this.model = model;
 		this.position = position;
 		this.rotX = rotX;
 		this.rotY = rotY;
 		this.rotZ = rotZ;
 		this.scale = scale;
+		this.map = isMap;
 		texture = new ModelTexture(loader.loadTexture(asset));
 		this.texturedModel = new TexturedModel(model, texture);
 		
 	}
+	
+	public abstract void update(Camera camera);
 	
 	public void increasePosition(float dx, float dy, float dz) {
 		this.position.x+=dx;
@@ -86,6 +90,10 @@ public abstract class Entity {
 	
 	public void setScale(float scale) {
 		this.scale = scale;
+	}
+	
+	public boolean isMap() {
+		return map;
 	}
 	
 }
