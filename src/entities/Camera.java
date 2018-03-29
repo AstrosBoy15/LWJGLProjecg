@@ -19,23 +19,23 @@ public class Camera {
 	}
 	
 	public void move() {
-		/*if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_LEFT))
-			position.x-=0.1f;
-		if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_DOWN))
-			position.y-=0.1f;
-		if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_RIGHT))
-			position.x+=0.1f;
-		if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_UP))
-			position.y+=0.1f;
-	*/	
-		if(position.x<-1.8)
-			position.x=-1.8f;
-		if(position.x>1.8)
-			position.x=1.8f;
-		if(position.y<-4.2)
-			position.y=-4.2f;
-		if(position.y>4.2)
-			position.y=4.2f;
+	//	if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_LEFT))
+	//		position.x-=0.1f;
+	//	if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_DOWN))
+	//		position.y-=0.1f;
+	//	if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_RIGHT))
+	//		position.x+=0.1f;
+	//	if(DisplayManager.getInput().isKeyDown(GLFW.GLFW_KEY_UP))
+	//		position.y+=0.1f;
+		
+	//	if(position.x<-1.8)
+	//		position.x=-1.8f;
+	//	if(position.x>1.8)
+	//		position.x=1.8f;
+	//	if(position.y<-4.2)
+	//		position.y=-4.2f;
+	//	if(position.y>4.2)
+	//		position.y=4.2f;
 			
 	}
 	

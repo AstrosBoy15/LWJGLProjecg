@@ -23,30 +23,41 @@ public class Player extends Entity{
 	public void update(Camera camera) {
 		Vector3f movement = new Vector3f(0,0,0);
 		if(DisplayManager.getInput().isKeyDown(GLFW_KEY_A))
-			movement.x-=.1;
+			movement.x-=.2;
 		if(DisplayManager.getInput().isKeyDown(GLFW_KEY_S))
-			movement.y-=.1;
+			movement.y-=.2;
 		if(DisplayManager.getInput().isKeyDown(GLFW_KEY_D))
-			movement.x+=.1;
+			movement.x+=.2;
 		if(DisplayManager.getInput().isKeyDown(GLFW_KEY_W))
-			movement.y+=.1;
+			movement.y+=.2;
 		
 		movement.add(getPosition());
 		
 		setPosition(movement);
 
-		if(getPosition().x<-2.5)
-			setPosition(new Vector3f(-2.5f,getPosition().y,getPosition().z));
-		if(getPosition().x>2.5)
-			setPosition(new Vector3f(2.5f,getPosition().y,getPosition().z));
-		if(getPosition().y<-4.9)
-			setPosition(new Vector3f(getPosition().x,-4.9f,getPosition().z));
-		if(getPosition().y>4.9)
-			setPosition(new Vector3f(getPosition().x,4.9f,getPosition().z));
+		if(getPosition().x<-62.5)
+			setPosition(new Vector3f(-62.5f,getPosition().y,getPosition().z));
+		if(getPosition().x>62.5)
+			setPosition(new Vector3f(62.5f,getPosition().y,getPosition().z));
+		if(getPosition().y<-62.5)
+			setPosition(new Vector3f(getPosition().x,-62.5f,getPosition().z));
+		if(getPosition().y>62.5)
+			setPosition(new Vector3f(getPosition().x,62.5f,getPosition().z));
 		
-		System.out.println(getPosition());
 		
-		camera.setPosition(new Vector3f(getPosition().x, getPosition().y, camera.getPosition().z));
+		camera.getPosition().lerp(new Vector3f(getPosition().x/20, getPosition().y/11.25f,camera.getPosition().z), .1f);
+		
+		if(camera.getPosition().x<-1.8)
+			camera.setPosition(new Vector3f(-1.8f, camera.getPosition().y, camera.getPosition().z));
+		if(camera.getPosition().x>1.8)
+			camera.setPosition(new Vector3f(1.8f, camera.getPosition().y, camera.getPosition().z));
+		if(camera.getPosition().y<-4.3)
+			camera.setPosition(new Vector3f(camera.getPosition().x, -4.3f, camera.getPosition().z));
+		if(camera.getPosition().y>4.3)
+			camera.setPosition(new Vector3f(camera.getPosition().x, 4.3f, camera.getPosition().z));
+		
+		System.out.println(camera.getPosition() + "; " + getPosition());
+		
 	}
 
 }
